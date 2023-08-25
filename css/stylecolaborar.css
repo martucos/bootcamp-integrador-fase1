@@ -1,0 +1,34 @@
+.banner-image {
+    background-image: url('../imgs/qs-lg.jpg');
+    background-size: cover;
+    z-index: -1;
+  }
+@media (max-width: 992px) {
+    .navbar-collapse {
+      text-align: right;
+    }
+    
+    .navbar-toggler {
+      display: block;
+    }
+    
+    .navbar-collapse.collapse.show {
+      display: block;
+    }
+  }
+  
+  @media (max-width: 768px){
+    .banner-image {
+      background-image: url('../imgs/qs-md.jpg');
+      background-size: cover;
+      z-index: -1;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .banner-image {
+      background-image: url('../imgs/qs-sm.jpg');
+      background-size: cover;
+      z-index: -1;
+    }
+  }

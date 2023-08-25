@@ -1,0 +1,18 @@
+@media (max-width: 768px){
+    .banner-image {
+      background-image: url('../imgs/home-md.jpg');
+      background-size: cover;
+      z-index: -1;
+    }
+    .inscripciones {
+        margin-top:11rem
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .banner-image {
+      background-image: url('../imgs/home-sm.jpg');
+      background-size: cover;
+      z-index: -1;
+    }
+  }
